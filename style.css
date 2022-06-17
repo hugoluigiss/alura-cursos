@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --branco-principal: #ffffff;
+    --azul-claro: #167BF7;
+    --cinza-secundario: #C0C0C0;
+    --cor-de-fundo: #00030C;
+    --font-principal: 'Inter';
+}
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.principal{
+    background-image: url('/imagens/fotos.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-principal{
+    color: var(--branco-principal);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+
+
+
+.container-botao{
+     border-radius: 5px;
+     background-color: var(--azul-claro);
+     color: white;
+     font-size: 16px;
+     padding: 1em 9em;
+     display: block;
+     margin-bottom: 0.7em;
+}
+
+.container-botao:hover{
+   font-size: 17px;
+}
+
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+
+.container-aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.container-img{
+    margin: 1em 0 2em 0;
+}
+
+.container-caixa{
+    margin: 0 6em;
+    padding: 20px;
+}
+
+.secundario{
+    align-items: center;
+}
+
+.secundario-imagem{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.secundario-titulo{
+    color: var(--branco-principal);
+    font-size: 48px;
+    
+}
+
+.terceiro{
+    align-items: center;
+}
+
+.container-descrição-terceiro{
+    margin: 0 1% 0 21%;
+}
+
+.descrição{
+    color: var(--branco-principal);
+    font-size: 16px;
+    margin-right: 30%;
+    width: 70%;
+}
+
+.terceiro-botao{
+    border-radius: 5px;
+     background-color: var(--azul-claro);
+     color: white;
+     font-size: 16px;
+     padding: 0.7em 0.5em;
+     display: block;
+     max-width: 8.5em;
+     text-align: center;
+     margin-top: 1em;
+}
+
+.terceiro-botao:hover{
+    font-size: 17px;
+}
+
+.quarta{
+    align-items: center;
+}
+
+.quarta-imagem{
+    margin: 0 auto;
+}
+
+.container-dimensoes{
+    margin-top: 200px;
+    height: 100vh;
+}
+
+.dimensoes{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 2em 8em;
+    margin: auto 0;
+}
+
+.dimensoes-titulo{
+    text-align: center;
+}
+
+.dimensoes-subtitulos{
+    color: var(--branco-principal);
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+.logo-alura{
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 2em;
+}
+
+.caixa-links-rodape{
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+.link-rodape{
+    color: var(--branco-principal);
+    text-align: center;
+    margin-left: 1em;
+    font-size: 16px;
+}
+
+.descricao-rodape{
+    color: var(--branco-principal);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.link-rodape:hover{
+    color: var(--azul-claro);
+}
